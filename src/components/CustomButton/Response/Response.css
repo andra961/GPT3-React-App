@@ -1,0 +1,21 @@
+.responseContainer {
+  background-color: #eeeeee;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.row {
+  margin: 15px 15px;
+  display: flex;
+}
+
+.nameText {
+  flex: 1;
+  font-weight: 700;
+}
+
+.contentText {
+  font-weight: 500;
+  flex: 3;
+}
