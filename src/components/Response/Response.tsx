@@ -1,5 +1,5 @@
 import React from "react";
-import { IResponse } from "../../PageContainer/PageContainer";
+import { IResponse } from "../../redux/responses";
 
 import "./Response.css";
 

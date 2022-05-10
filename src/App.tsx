@@ -1,12 +1,16 @@
 import React from "react";
 import "./App.css";
-import PageContainer from "./components/PageContainer";
+import { Provider } from "react-redux";
+import PageContainer from "./pages/HomePage";
+import store from "./redux/store";
 
 function App() {
   return (
-    <div className="App">
-      <PageContainer />
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <PageContainer />
+      </div>
+    </Provider>
   );
 }
 
