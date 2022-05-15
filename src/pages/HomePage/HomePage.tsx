@@ -19,7 +19,7 @@ function HomePage() {
 
   return (
     <div className="pageContainer">
-      <CustomHeader />
+      <CustomHeader title="Fun with AI" />
       <RequestForm />
       {responses.length > 0 && (
         <>

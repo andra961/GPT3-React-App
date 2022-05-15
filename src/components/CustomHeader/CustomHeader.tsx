@@ -1,8 +1,8 @@
 import React from "react";
 import "./CustomHeader.css";
 
-function CustomHeader() {
-  return <header>Fun with AI</header>;
+function CustomHeader({ title }: { title: string }) {
+  return <header>{title}</header>;
 }
 
 export default CustomHeader;
