@@ -25,3 +25,21 @@ npm start
 ```
 
 This should launch the web app on http://localhost:3000.
+
+## Launch the project with Docker
+
+Be sure to have Docker and Docker Compose installed and running (and having created the .env file)
+
+Start the docker-compose with:
+
+```
+npm run docker-start
+```
+
+Stop the docker-compose with:
+
+```
+npm run docker-stop
+```
+
+You should find the web app running on http://localhost:3000.
