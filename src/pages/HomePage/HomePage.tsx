@@ -5,7 +5,11 @@ import CustomHeader from "../../components/CustomHeader";
 import RequestForm from "../../components/RequestForm";
 import Response from "../../components/Response";
 import { RootState, useAppDispatch } from "../../redux/store";
-import { fetchResponses, clearResponses } from "../../redux/responses";
+import {
+  fetchResponses,
+  clearResponses,
+  storeResponse,
+} from "../../redux/responses";
 import "./HomePage.css";
 
 function HomePage() {
