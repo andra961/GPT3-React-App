@@ -1,10 +1,10 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import { useDispatch } from "react-redux";
 import loggerMiddleware from "./middlewares/logger";
-import responseReducer from "./responses";
+import responses from "./responses";
 
 const rootReducer = combineReducers({
-  responses: responseReducer,
+  responses,
 });
 
 const store = configureStore({
